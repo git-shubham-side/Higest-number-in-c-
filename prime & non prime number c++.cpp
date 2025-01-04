@@ -10,7 +10,7 @@ int main() {
     //Initilizing p=1, if any condition didn't gets true it will print Prime Number:
     p=1;
     
-    for(i=1;i<num;i++)//starting The Loop from the starting point & run until the number is given. means if the num 7 is given then the loop will find the divider number until 7 or the loop will run until the 7 times to find its factor.
+    for(i=2;i<num;i++)//starting The Loop from the starting point & run until the number is given. means if the num 7 is given then the loop will find the divider number until 7 or the loop will run until the 7 times to find its factor.
     {
         if(num%2==0)  
         {
